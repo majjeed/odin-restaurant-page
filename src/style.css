@@ -1,79 +1,119 @@
 :root {
-    --yellow: #FFC60B;
-    --green: #85AE85;
-    --light-blue: #0A95FF;
-    --dark-blue: #230AFF;
-    --purple: #7766FF;
-    --lilac: #AAA0FF;
-    --dark-orange: #df880a;
-    --chocolate: #c16a08;
-    --khaki: #ffde73;
-  }
-  
-  body {
-    box-sizing: border-box;
-    min-height: 800px;
-    /* height: 100vh; */
-    margin: 0;
-    position: relative;
-  }
-  
-  footer {
-    box-sizing: border-box;
-    background-color: var(--khaki);
-    width: 100vw;
-    height: 56px;
-    padding-top: 15px;
-    padding-bottom: 17px;
-    /* position: absolute; */
-    /* bottom: 0; */
-    margin-top: 45px;
-  }
-  
-  h1 {
-    margin: 0;
-    font-size: 45px;
-    font-family: 'Potta One', cursive;
-  }
-  
-  h2 {
-    margin: 0;
-    font-size: 20px;
-    font-family: 'Potta One', cursive;
-  }
-  
-  header {
-    box-sizing: border-box;
-    background-color: var(--khaki);
-    margin-bottom: 45px;
-    height: 50px;
-    padding-top: 5px;
-  }
-  
-  html {
+    --lavender-blush: #ede0e1ff;
+    --silver: #c0c0bdff;
+    --gray: #787a75ff;
+    --timberwolf: #ddd8d7ff;
+    --silver-2: #b5b6b1ff;
+    --dim-gray: #6f716dff;
+}
+
+html {
     background-image: url("./grunge\ texture.jpg");
     background-attachment: fixed;
     background-size: cover;
     min-height: 100vh;
     min-width: 100vw;
-    font-family: 'Yusei Magic', sans-serif;
+    font-family: Arial, sans-serif;
     overflow-x: hidden;
-  }
-  
-  nav {
-    width: 380px;
+}
+
+body {
+    box-sizing: border-box;
+    min-height: 800px;
+    margin: 0;
+    position: relative;
+}
+
+header {
+    box-sizing: border-box;
+    background-color: var(--lavender-blush);
+    margin-bottom: 25px;
+    height: 50px;
+    padding-top: 5px;
+    box-shadow: 0px -5px 10px 5px var(--dim-gray);
+    display: flex;
+}
+
+nav {
     margin: 0 auto;
     position: relative;
-  }
-  
-  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    background-color: var(--timberwolf);
+    color: var(--gray);
+    border: 2px solid var(--silver-2);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: var(--silver);
+    color: var(--lavender-blush);
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: var(--dim-gray);
+    color: var(--lavender-blush);
+    transform: scale(0.95);
+}
+
+.outer-border {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#content {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+    font-family: Arial, cursive;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+    font-family: Arial, cursive;
+}
+
+/* ul {
     display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center;
-  }
-  
-  ul > li {
+}
+
+ul>li {
     flex: 1;
-  }
+}
+
+footer {
+    box-sizing: border-box;
+    background-color: var(--lavender-blush);
+    width: 100vw;
+    height: 56px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    position: absolute;
+    bottom: 0;
+    margin-top: 45px;
+} */

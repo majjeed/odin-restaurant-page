@@ -1,14 +1,15 @@
 export default function initalPage() {
     const content = document.querySelector('#content');
+    //content.classList.add('outer-border');
 
     const headingContainer = document.createElement('div');
-    headingContainer.classList.add('heading-container');
+    headingContainer.classList.add('heading-container', 'outer-border');
 
     const reviewOuter = document.createElement('div');
-    reviewOuter.classList.add('review-outer');
+    reviewOuter.classList.add('review-outer', 'outer-border');
 
     const infoHoursOuter = document.createElement('div');
-    infoHoursOuter.classList.add('info-hours-outer');
+    infoHoursOuter.classList.add('info-hours-outer', 'outer-border');
 
 
     const heading = document.createElement('div');
