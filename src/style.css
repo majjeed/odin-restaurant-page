@@ -1,0 +1,79 @@
+:root {
+    --yellow: #FFC60B;
+    --green: #85AE85;
+    --light-blue: #0A95FF;
+    --dark-blue: #230AFF;
+    --purple: #7766FF;
+    --lilac: #AAA0FF;
+    --dark-orange: #df880a;
+    --chocolate: #c16a08;
+    --khaki: #ffde73;
+  }
+  
+  body {
+    box-sizing: border-box;
+    min-height: 800px;
+    /* height: 100vh; */
+    margin: 0;
+    position: relative;
+  }
+  
+  footer {
+    box-sizing: border-box;
+    background-color: var(--khaki);
+    width: 100vw;
+    height: 56px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    /* position: absolute; */
+    /* bottom: 0; */
+    margin-top: 45px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 45px;
+    font-family: 'Potta One', cursive;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Potta One', cursive;
+  }
+  
+  header {
+    box-sizing: border-box;
+    background-color: var(--khaki);
+    margin-bottom: 45px;
+    height: 50px;
+    padding-top: 5px;
+  }
+  
+  html {
+    background-image: url("./grunge\ texture.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Yusei Magic', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  nav {
+    width: 380px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  ul > li {
+    flex: 1;
+  }
